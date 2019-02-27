@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autoshop SYSTEM "autoshop.dtd">
+<autoshop> 
+  <auto state="used">
+    <mark model="x1">Opel</mark>
+    <color>Blue</color>
+    <type box="manual">Wagon</type>
+    <box>2007</box>
+    <price>7000</price>
+    <capacity>1.2</capacity>
+  </auto>
+  <auto state="new">
+    <mark model="x2">Ferrari</mark>
+    <color>Silver</color>
+    <type box="automatic">Uvinersal</type>
+    <box>2018</box>
+    <price>1000000</price>
+    <capacity>1.6</capacity>
+  </auto>
+  <auto state="used">
+    <mark model="x4">Honda</mark>
+    <color>Black</color>
+    <type box="manual">Wagon</type>
+    <box>2005</box>
+    <price>12000</price>
+    <capacity>1.9</capacity>
+  </auto>
+  <auto state="new">
+    <mark model="x3">Mersedes</mark>
+    <color>Lime</color>
+    <type box="automatic">Hatchback</type>
+    <box>2018</box>
+    <price>250000</price>
+    <capacity>1.8</capacity>
+  </auto>
+  <auto state="used">
+    <mark model="x5">Scoda</mark>
+    <color>4000</color>
+    <type box="manual">Universal</type>
+    <box>2003</box>
+    <price>2000</price>
+    <capacity>2.2</capacity>
+  </auto>
+</autoshop>
