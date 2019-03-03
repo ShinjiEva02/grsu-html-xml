@@ -13,9 +13,8 @@
   * Sport
 * Achievements.
 * Friends
-
-  2. (CSS) Apply common CSS style sheets to pages.
-  3. (Content) Fill the contents of the pages actual information.
+2. (CSS) Apply common CSS style sheets to pages.
+3. (Content) Fill the contents of the pages actual information.
 
 ### №2 XML & DTD
 Create an XML file and a DTD description for it.The language should describe some subject area (list of literature, 
