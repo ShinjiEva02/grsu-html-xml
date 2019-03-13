@@ -9,9 +9,9 @@
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT capacity (#PCDATA)>
 
-<!ATTLIST auto state CDATA #IMPLIED>
-<!ATTLIST mark model CDATA #REQUIRED>
-<!ATTLIST type box CDATA #REQUIRED>
+<!ATTLIST auto date_sting state (new|used) CDATA #IMPLIED>
+<!ATTLIST mark  date_sting model CDATA #REQUIRED>
+<!ATTLIST type date_sting box CDATA #REQUIRED>
 
 <!ENTITY writer "Dima Sazonov.">
 <!ENTITY copyright "Copyright W3Schools.">

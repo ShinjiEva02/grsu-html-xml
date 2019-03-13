@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE autoshop SYSTEM "autoshop.dtd">
+<!-- <!DOCTYPE autoshop SYSTEM "autoshop.dtd"> -->
+<!DOCTYPE autoshop [
+
+<!ELEMENT autoshop (auto+)>
+<!ELEMENT auto (mark, color, type, box, price, capacity)>
+<!ELEMENT mark (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT box (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT capacity (#PCDATA)>
+
+<!ATTLIST auto state (new|used) #IMPLIED>
+<!ATTLIST mark model CDATA #REQUIRED>
+<!ATTLIST type box CDATA #REQUIRED>
+
+<!ENTITY writer "Dima Sazonov.">
+<!ENTITY copyright "Copyright W3Schools.">
+
+]>
 <autoshop> 
   <auto state="used">
     <mark model="x1">Opel</mark>
