@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoshop xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="autoshop.xsd">
+  <auto state="used">
+    <mark>Opel</mark>
+    <color>Blue</color>
+    <type>Wagon</type>
+    <age>2007</age>
+    <price>7000</price>
+    <capacity>1.2</capacity>
+  </auto>
+  <auto state="new">
+    <mark>Ferrari</mark>
+    <color>Silver</color>
+    <type>Uvinersal</type>
+    <age>2018</age>
+    <price>1000000</price>
+    <capacity>1.6</capacity>
+  </auto>
+  <auto state="used">
+    <mark>Honda</mark>
+    <color>Black</color>
+    <type>Wagon</type>
+    <age>2005</age>
+    <price>12000</price>
+    <capacity>1.9</capacity>
+  </auto>
+  <auto state="new">
+    <mark>Mersedes</mark>
+    <color>Lime</color>
+    <type>Hatchback</type>
+    <age>2018</age>
+    <price>250000</price>
+    <capacity>1.8</capacity>
+  </auto>
+  <auto state="used">
+    <mark>Scoda</mark>
+    <color>4000</color>
+    <type>Universal</type>
+    <age>2003</age>
+    <price>2000</price>
+    <capacity>2.2</capacity>
+  </auto>
+</autoshop>

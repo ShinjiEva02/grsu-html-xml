@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- определение простых элементов -->
+  <xs:element name="mark" type="xs:string"/>
+  <xs:element name="color" type="xs:string"/>
+  <xs:element name="type" type="xs:string"/>
+  <xs:element name="age" type="xs:integer"/>
+  <xs:element name="price" type="xs:integer"/>
+  <xs:element name="capacity" type="xs:decimal"/>
+
+  <!-- определение атрибутов -->
+  <xs:attribute name="state" type="xs:string" default="new"/>
+  <!-- определение составных элементов -->
+  <xs:element name="auto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="mark"/>
+        <xs:element ref="color"/>
+        <xs:element ref="type"/>
+        <xs:element ref="age"/>
+        <xs:element ref="price"/>
+        <xs:element ref="capacity"/>
+      </xs:sequence>
+      <xs:attribute ref="state" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="autoshop">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="auto" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
