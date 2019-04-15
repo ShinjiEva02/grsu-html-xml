@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <!DOCTYPE autoshop SYSTEM "autoshop.dtd"> -->
+<!-- <!DaOCTYPE autoshop SYSTEM "autoshop.dtd"> -->
 <!DOCTYPE autoshop [
 
 <!ELEMENT autoshop (auto+)>

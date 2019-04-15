@@ -9,9 +9,8 @@
   <xs:element name="price" type="xs:integer"/>
   <xs:element name="capacity" type="xs:decimal"/>
 
-  <!-- определение атрибутов -->
   <xs:attribute name="state" type="xs:string" default="new"/>
-  <!-- определение составных элементов -->
+
   <xs:element name="auto">
     <xs:complexType>
       <xs:sequence>
@@ -22,7 +21,13 @@
         <xs:element ref="price"/>
         <xs:element ref="capacity"/>
       </xs:sequence>
-      <xs:attribute ref="state" use="required"/>
+      <xs:attribute name = "state">
+        <xs:simpleType>
+          <xs:restriction base = "xs:string">
+            <xs:pattern value = "new|used"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
     </xs:complexType>
   </xs:element>
 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autoshop>
+  <auto id="1">
+    <mark>Opel</mark>
+    <color>Blue</color>
+    <age>2007</age>
+    <price>7000</price>
+  </auto>
+  <auto id="2">
+    <mark>Ferrari</mark>
+    <color>Silver</color>
+    <age>2018</age>
+    <price>1000000</price>
+  </auto>
+  <auto id="3">
+    <mark>Honda</mark>
+    <color>Black</color>
+    <age>2005</age>
+    <price>12000</price>
+  </auto>
+</autoshop>
